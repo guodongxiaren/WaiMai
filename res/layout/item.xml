@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#a0e10b"
+    >
+    
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kele" />
+    <TextView 
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pic"
+        android:layout_alignParentTop="true"
+        android:text="name"
+        />
+    <TextView 
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pic"
+        android:layout_above="@id/name"
+        android:layout_alignBottom="@id/pic"
+        android:text="price"
+        />
+   <TextView 
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="star"
+        />
+   <TextView 
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+   		android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/pic"
+        android:text="count"
+        />
+
+</RelativeLayout>

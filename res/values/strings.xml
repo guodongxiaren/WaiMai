@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">WaiMai</string>
+    <string name="action_settings">Settings</string>
+    <string name="reco">推荐</string>
+    <string name="sort">分类</string>
+    <string name="rank">榜单</string>
+    <string name="order">订单</string>
+    
+</resources>
